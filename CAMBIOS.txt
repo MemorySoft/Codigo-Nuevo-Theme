@@ -1,0 +1,13 @@
+=== New Code 3.1 ===
+Tema creado por Memory Soft para Código Nuevo
+Sitio: http://codigonuevo.com
+Tags: responsive, magazine, megamenu
+
+
+=== Cambios de esta versión ===
+
+- Re-implementado el slot de portada para NativeAD
+- Re-implementada la plantilla de pagina para NativeAD
+- Sutituida la llamada a sidebar-simple.php por sidebar.php en la plantilla de página con sidebar
+- Añadido hack al functions.php para corregir el bug del og:image de Facebook:
+			http://stackoverflow.com/questions/15134090/fb-debugger-says-that-my-ogimage-should-be-larger-even-though-it-is-large
