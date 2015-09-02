@@ -514,37 +514,7 @@ $(document).ready(function(){
   // Espacio para NativeAD
 
   //////////////////////////////////////////////////////////////////////////
-  // $('.home #loop .caja-post:nth-child(1)').after('<div class="caja-post columns" id="nativeadHome">
-  //   <span class="post-38766 post type-post status-publish format-standard has-post-thumbnail hentry category-humor">
-  //     <div class="extracto-post">
-  //       <div class="extracto-imagen-caja">
-  //         <a title="Este es el espacio reservado para los contenidos de Native AD" href="/nativead/">
-  //           <div class="extracto-imagen">
-  //             <img src="http://native.ad/es/wp-content/img/sites/5/2014/05/bilbao.jpg" class="attachment-post wp-post-image" alt="native image" height="450" width="600">
-  //           </div>
-  //         </a>
-  //       </div>
-  //       <div class="extracto-info">                  
-  //         <div class="extracto-categoria">
-  //           <ul class="post-categories">
-  //             <li><a class="category-humor" href="#" title="View all posts in NATIVE" rel="category tag">NATIVE</a></li>
-  //           </ul>
-  //         </div>
-  //         <div class="extracto-autor"><a href="#" title="Entradas de NativeAD" rel="author">Native Ad</a></div>
-  //         <div class="extracto-fecha">18 de marzo</div>
-  //       </div>
-  //       <h3 class="extracto-titulo">
-  //         <a title="Este es el espacio reservado para los contenidos de Native AD" href="/nativead/">
-  //          Este es el espacio reservado para los contenidos de Native AD
-  //         </a>
-  //       </h3>
-  //       <p class="extracto-texto">
-  //         En este espacio aparecerá el post patrocinado de NativeAD y enlazará a la plantilla que hemos diseñado especialmente para ellos.
-  //       </p>
-  //     </div>
-  //   </span>
-  // </div>');
-  $('.home #loop .caja-post:nth-child(1)').after('<div class="caja-post columns" id="nativeadHome"><span class="post-38766 post type-post status-publish format-standard has-post-thumbnail hentry category-humor"><div class="extracto-post"><div class="extracto-imagen-caja"><a title="Este es el espacio reservado para los contenidos de Native AD" href="/nativead/"><div class="extracto-imagen"><img src="http://native.ad/es/wp-content/img/sites/5/2014/05/bilbao.jpg" class="attachment-post wp-post-image" alt="native image" height="450" width="600"></div></a></div><div class="extracto-info">                  <div class="extracto-categoria"><ul class="post-categories"><li><a class="category-humor" href="#" title="View all posts in NATIVE" rel="category tag">NATIVE</a></li></ul></div><div class="extracto-autor"><a href="#" title="Entradas de NativeAD" rel="author">Native Ad</a></div><div class="extracto-fecha">18 de marzo</div></div><h3 class="extracto-titulo"><a title="Este es el espacio reservado para los contenidos de Native AD" href="/nativead/">Este es el espacio reservado para los contenidos de Native AD</a></h3><p class="extracto-texto">En este espacio aparecerá el post patrocinado de NativeAD y enlazará a la plantilla que hemos diseñado especialmente para ellos.</p></div></span></div>');
+  $('.home #loop .caja-post:nth-child(1)').after('<div class="caja-post columns" id="nativeadHome"><span class="post-nativead post type-post status-publish format-standard has-post-thumbnail hentry category-humor"><div class="extracto-post"><div class="extracto-imagen-caja"><a title="" href="/nativead/"><div class="extracto-imagen"><img src="" class="attachment-post wp-post-image" alt="" height="450" width="600"></div></a></div><div class="extracto-info"><div class="extracto-categoria"><ul class="post-categories"><li><a class="category-nativead" href="/nativead/" title="" rel="category tag"></a></li></ul></div><div class="extracto-autor"><a href="/nativead/" title="" rel="author"></a></div><div class="extracto-fecha"></div></div><h3 class="extracto-titulo"><a title="" href="/nativead/"></a></h3><p class="extracto-texto"></p></div></span></div>');
 });
 
 
