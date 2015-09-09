@@ -83,6 +83,9 @@
     <script src="http://adsby.publicidad.net/tad/test.js"></script>
   <!-- /PUBLICIDAD.NET -->
 
+  <!-- NATIVEAD -->
+  <script type="text/javascript" src=" https://files.native.ad/tag.min.js "></script>
+
   <!-- FACEBOOK HOOK -->
     <div id="fb-root"></div>
     <script>
