@@ -11,3 +11,4 @@ Tags: responsive, magazine, megamenu
 - Sutituida la llamada a sidebar-simple.php por sidebar.php en la plantilla de página con sidebar
 - Añadido hack al functions.php para corregir el bug del og:image de Facebook:
 			http://stackoverflow.com/questions/15134090/fb-debugger-says-that-my-ogimage-should-be-larger-even-though-it-is-large
+- Encapsulamos el inserto de NativeAd en un condicional para que solo se muestre cuando haya campaña

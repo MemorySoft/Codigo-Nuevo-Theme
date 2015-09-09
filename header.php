@@ -13,12 +13,13 @@
   <link rel="alternate" type="application/atom+xml" title="Atom 0.3 - <?php bloginfo('name'); ?> " href="<?php bloginfo('atom_url'); ?>" />
   <link rel="alternate" type="application/rss+xml" title="Comments Feed - para todos los comentarios de Código Nuevo" href="<?php bloginfo('comments_rss2_url'); ?>" />
 
-  <!-- Estilos --
+  <!-- Estilos -->
   <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/style.css" /> 
-  -->
+  <!--
   <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/librerias.css" />
   <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/font-awesome.css" />
   <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/estilos.css" />
+  -->
 
   <!-- Estilos críticos -->
   <style type="text/css">
@@ -29,12 +30,13 @@
   <!-- Cabeceras insertadas por WordPress -->
   <?php wp_head(); ?>
   
-  <!-- Scripts 
+  <!-- Scripts -->
   <script src="<?php bloginfo('template_directory'); ?>/js/produccion.min.js"></script>
-  -->
+  <!--
   <script src="<?php bloginfo('template_directory'); ?>/js/librerias.js"></script> 
   <script src="<?php bloginfo('template_directory'); ?>/js/scripts.js"></script> 
-
+  -->
+  
   <!-- Twitter card -->
   <meta name="twitter:widgets:csp" content="on">
   <meta name="twitter:card" content="summary">

@@ -16,7 +16,6 @@
   <div id="contenido" class="large-8 medium-8 columns">
 
     <!-- BLOG ROLL -->
-    <!-- Aquí insertamos el contenido que viene de scrollinfinito.php -->
     <div id="loop" class="row">
         
       <?php if(have_posts()) : ?>
@@ -33,6 +32,9 @@
         </div>
 
       <?php endif; ?>    
+
+      <!-- Recojemos el contenido de las campañas de NativeAd -->
+      <div id="native-preload" style="display:none;"></div>
     </div>
     <!-- /BLOG ROLL -->
 
