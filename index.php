@@ -33,8 +33,36 @@
 
       <?php endif; ?>    
 
-      <!-- Recojemos el contenido de las campañas de NativeAd -->
-      <div id="native-preload" style="display:none;"></div>
+      <!-- SLOT PARA NATIVEAD -->
+      <div id="native-preload" style="display:none;">
+        <div class="caja-post columns" id="nativeadHome">
+          <span class="post-nativead post type-post status-publish format-standard has-post-thumbnail hentry category-humor">
+            <div class="extracto-post">
+              <div class="extracto-imagen-caja">
+                <a title="" href="/nativead/">
+                  <div class="extracto-imagen">
+                    <img src="" class="attachment-post wp-post-image" alt="" height="450" width="600">
+                  </div>
+                </a>
+              </div>
+              <div class="extracto-info">
+                <div class="extracto-categoria">
+                  <ul class="post-categories">
+                    <li><a class="category-nativead" href="/nativead/" title="" rel="category tag"></a></li>
+                  </ul>
+                </div>
+                <div class="extracto-autor">
+                  <a href="/nativead/" title="" rel="author"></a>
+                </div>
+                <div class="extracto-fecha">
+                </div>
+              </div>
+              <h3 class="extracto-titulo"><a title="" href="/nativead/"></a></h3>
+              <p class="extracto-texto"></p>
+            </div>
+          </span>
+        </div>
+      </div>
     </div>
     <!-- /BLOG ROLL -->
 
